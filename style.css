@@ -26,9 +26,15 @@
     background: white;
 }
 */
+/**header property**/
 .headerProperty{
     background-color: darkgray;
 }
+.headerbody{
+    height: 10%;
+    margin-bottom: 10px;
+}
+
 
 .photoslider{
     height: 100%;
@@ -115,4 +121,55 @@
     background-color: #e5eecc;
     padding: 7px;
     border: solid 1px #c3c3c3;
+}
+
+/**Button show hide property**/
+.buttonShowHide{
+    color: #e5eecc;
+}
+/**Login/signup**/
+.loginSignUp{
+    margin: 5px 0px 5px 5px;
+    color: #e5eecc;
+    text-align: right;
+}
+
+/**users interaction**/
+.signIn{
+    background-color: #e5eecc;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.signUp{
+    background-color: #e5eecc;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/**For my account and sign out**/
+.signout{
+    background-color: #e5eecc;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.myAccount{
+    background-color: #e5eecc;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/**table design for login table**/
+.tableProperty{
+    width: 350px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
+.secondTableforUserLogin{
+    width: 100%;
+    border: 1px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
 }
