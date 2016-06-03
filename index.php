@@ -8,11 +8,9 @@
 //comment section
 
 //header
-include "header.html";
+
 
 ?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,10 +30,12 @@ include "header.html";
                 $(".ex").show(1000);
             });
         });
+
     </script>
 
 </head>
-<body>
+<body bgcolor="#8fbc8f">
+<?php include "header.html";?>
 
 <h3>Description</h3>
 
@@ -50,9 +50,12 @@ include "header.html";
 <button class="show" id="showButton">show description</button>
 </div>
 
+
+
+<?php include "footer.html"; ?>
 </body>
 </html>
 
 
 
-<?php include "footer.html"; ?>
+

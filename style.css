@@ -123,6 +123,20 @@
     border: solid 1px #c3c3c3;
 }
 
+/** properties for read more description**/
+.ex1 {
+    background-color: #e5eecc;
+    padding: 7px;
+    border: solid 1px #c3c3c3;
+}
+
+/** properties for read more description**/
+.ex2 {
+    background-color: #e5eecc;
+    padding: 7px;
+    border: solid 1px #c3c3c3;
+}
+
 /**Button show hide property**/
 .buttonShowHide{
     color: #e5eecc;
@@ -172,4 +186,32 @@
     border: 1px;
     border-radius: 20px;
     background-color: cornflowerblue;
+}
+
+/**botton property for hide and show for game description**/
+.hide{
+    font-family: cursive;
+    font-size: 20px;
+}
+.show{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.hide1{
+    font-family: cursive;
+    font-size: 20px;
+}
+.show1{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.hide2{
+    font-family: cursive;
+    font-size: 20px;
+}
+.show2{
+    font-family: cursive;
+    font-size: 20px;
 }

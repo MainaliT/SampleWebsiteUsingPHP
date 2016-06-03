@@ -28,15 +28,16 @@ if(isset($_POST["register"])){
     }else{
         $sqlQuery = mysqli_query($con, "INSERT INTO users (username, passwords) VALUES('$username', '$password')");
         //exit("Attempt Insert");
+
+
         if($sqlQuery){
             //exit("Insert Complete");
-            $msg = "Thank you! You are now register";
-            
+            $msg = "Thank you! You are now register. Sign in";
 
         }
     }
-
 }
+
 
 ?>
 
